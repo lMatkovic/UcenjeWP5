@@ -11,3 +11,9 @@ pristupio bit
 );
 
 
+create table pristupnici(
+ispitnirok datetime,
+student varchar(50),
+brojbodova varchar(3),
+ocjena int
+);
