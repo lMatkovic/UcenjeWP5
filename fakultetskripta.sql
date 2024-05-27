@@ -17,3 +17,10 @@ student varchar(50),
 brojbodova varchar(3),
 ocjena int
 );
+
+create table profesori(
+sifra int,
+Ime varchar(50),
+prezime varchar(50),
+kolegij varchar(50)
+);
