@@ -21,7 +21,7 @@ create table igrac(
 sifra int not null primary key identity(1,1),
 ime varchar(30) not null,
 prezime varchar(30) not null,
-datum_rođenja datetime not null,
+datum_rodenja datetime not null,
 pozicija varchar(30),
 broj_dresa int,
 klub int not null
@@ -55,12 +55,12 @@ insert into klub (naziv, osnovan, stadion, predsjednik, drzava, liga) values
 ('FC Barcelona', 1899, 'Camp Nou', 'Joan Laporta', 'Španjolska', 'La Liga'),
 ('Real Madrid', 1902, 'Santiago Bernabeu', 'Florentino Perez', 'Španjolska', 'La Liga'),
 ('Manchester United', 1878, 'Old Trafford', 'Joel Glazer', 'Engleska', 'Premier League'),
-('Bayern Munich', 1900, 'Allianz Arena', 'Herbert Hainer', 'Njema?ka', 'Bundesliga');
+('Bayern Munich', 1900, 'Allianz Arena', 'Herbert Hainer', 'Njemačka', 'Bundesliga');
 
 select * from klub;
 
-insert into igrac (ime, prezime, datum_rođenja, pozicija, broj_dresa, klub) values
-('Robert', 'Lewandowski', '1988-08-21', 'Napada?', 9, 1),
+insert into igrac (ime, prezime, datum_rodenja, pozicija, broj_dresa, klub) values
+('Robert', 'Lewandowski', '1988-08-21', 'Napadač', 9, 1),
 ('Luka', 'Modrić', '1985-09-09', 'Vezni', 10, 2),
 ('Harry', 'Maguire', '1993-03-05', 'Obrambeni', 5, 3),
 ('Manuel', 'Neuer', '1986-03-27', 'Golman', 1, 4); 
