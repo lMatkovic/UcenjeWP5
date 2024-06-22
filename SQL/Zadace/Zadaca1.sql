@@ -30,7 +30,6 @@ klub int not null
 create table utakmica(
 sifra int not null primary key identity(1,1),
 datum datetime not null,
-vrijeme time not null,
 lokacija varchar(30),
 stadion varchar(30),
 domaci_klub int not null,
@@ -67,11 +66,11 @@ insert into igrac (ime, prezime, datum_rodenja, pozicija, broj_dresa, klub) valu
 
 select * from igrac;
 
-insert into utakmica (datum, vrijeme, lokacija, stadion, domaci_klub, gostujuci_klub) values
-('2023-08-10', '20:00:00', 'Barcelona', 'Camp Nou', 1, 2),
-('2023-09-15', '21:00:00', 'Madrid', 'Santiago Bernabeu', 2, 3),
-('2024-03-21', '19:00:00', 'Manchester', 'Old Trafford', 3, 4),
-('2024-04-08', '18:00:00', 'Munich', 'Allianz Arena', 4, 1);
+insert into utakmica (datum, lokacija, stadion, domaci_klub, gostujuci_klub) values
+('2023-08-10 20:00','Barcelona', 'Camp Nou', 1, 2),
+('2023-09-15 21:00','Madrid', 'Santiago Bernabeu', 2, 3),
+('2024-03-21 19:00','Manchester', 'Old Trafford', 3, 4),
+('2024-04-08 18:00', 'Munich', 'Allianz Arena', 4, 1);
 
 select * from utakmica;
 
