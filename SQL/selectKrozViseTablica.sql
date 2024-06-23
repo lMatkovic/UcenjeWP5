@@ -85,6 +85,6 @@ where a.naziv in ('Osijek','Punitovci');
 -- u rasponu 1000 - 1100 eura, koliko artikala možete kupiti?
 
 
-
+from 
 
 
