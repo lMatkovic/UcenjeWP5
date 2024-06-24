@@ -84,7 +84,6 @@ where a.naziv in ('Osijek','Punitovci');
 -- Idete u svatove i planirate kupiti poklon
 -- u rasponu 1000 - 1100 eura, koliko artikala možete kupiti?
 
-
 from 
 
 
