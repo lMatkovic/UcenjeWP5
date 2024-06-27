@@ -3,8 +3,13 @@
 
 using UcenjeCS;
 
+E04UvjetnoGrananjeSwitch.Izvedi();
 
-E02VarijableTipoviPodataka.Izvedi();
+//E03Z1.Izvedi();
+
+//E03UvjetnoGrananjeIf.Izvedi();
+
+//E02VarijableTipoviPodataka.Izvedi();
 
 //E01UlazIzlaz.Izvedi();
 
