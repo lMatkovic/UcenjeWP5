@@ -1,6 +1,11 @@
-﻿--create database fakultet;
+﻿use master;
+go
+drop database if exists fakultet;
+go
+create database fakultet;
+go
+use fakultet;
 
---use fakultet;
 
 create table ispitnirok(
 sifra int,
