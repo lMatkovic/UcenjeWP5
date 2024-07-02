@@ -3,7 +3,13 @@
 
 using UcenjeCS;
 
-E04UvjetnoGrananjeSwitch.Izvedi();
+E04Z1.Izvedi();
+
+// E03Z3.Izvedi();
+
+//E03Z2.Izvedi();
+
+//E04UvjetnoGrananjeSwitch.Izvedi();
 
 //E03Z1.Izvedi();
 
