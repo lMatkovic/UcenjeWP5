@@ -3,7 +3,7 @@
 
 using UcenjeCS;
 
-E04Z1.Izvedi();
+E06ForPetlja.Izvedi();
 
 // E03Z3.Izvedi();
 
