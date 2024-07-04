@@ -3,7 +3,9 @@
 
 using UcenjeCS;
 
-E06ForPetlja.Izvedi();
+E05Nizovi.Izvedi();
+
+// E06ForPetlja.Izvedi();
 
 // E03Z3.Izvedi();
 
