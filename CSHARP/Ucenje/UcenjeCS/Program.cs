@@ -3,7 +3,14 @@
 
 using UcenjeCS;
 
-TablicaDZ.Izvedi();
+E10TryCatch.Izvedi();
+
+
+//E09ForeachPetlja.Izvedi();
+
+//E08DoWhilePetlja.Izvedi();
+
+//TablicaDZ.Izvedi();
 
 //E05Nizovi.Izvedi();
 
