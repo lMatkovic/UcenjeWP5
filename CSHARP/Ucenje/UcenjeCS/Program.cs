@@ -3,7 +3,9 @@
 
 using UcenjeCS;
 
-E10TryCatch.Izvedi();
+E06Z1.Izvedi();
+
+//E10TryCatch.Izvedi();
 
 
 //E09ForeachPetlja.Izvedi();
