@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,29 +17,9 @@ namespace UcenjeCS
 
         public static void Izvedi()
         {
-
-         Console.WriteLine("Unesite svoje godine: ");
-         int g = int.Parse(Console.ReadLine());
-
-         if (g <= 0 || g >= 112)
-         {
-             Console.WriteLine("GREŠKA");
-         }
-         else if (g >= 18)
-         {
-             Console.WriteLine("Punoljetan");
-         }
-         else
-         {
-             Console.WriteLine("Nije punoljetan");
-         }
-
-
-
+            // DZ
         }
-  
-       
-        
+
 
 
 

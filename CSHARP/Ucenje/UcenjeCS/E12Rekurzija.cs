@@ -17,7 +17,7 @@ namespace UcenjeCS
             // Metoda(); ovo producira StackOverflow exception
             Console.WriteLine(Zbroji(100));
 
-            int broj = Izracunaj("Koji je broj", 2);
+            int broj = Izracunaj("Koji je broj",2);
 
         }
 

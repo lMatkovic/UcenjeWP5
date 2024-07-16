@@ -3,30 +3,41 @@
 
 using UcenjeCS;
 
-E12Rekurzija.Izvedi();
+E13Vjezbanje.Izvedi();
+
+//E12Rekurzija.Izvedi();
+
+//E11Z1.Izvedi();
 
 //E11Metode.Izvedi();
 
+//E11Metode.Tip1(); // ne vidmo metodu jer je privatna
+
+//E01Z4.Izvedi();
+
 //E06Z1.Izvedi();
 
+//E07Z2.Izvedi();
 
+//E03Z4.Izvedi();
+
+//E01Z3.Izvedi();
+
+//E01Z2.Izvedi();
+
+//E01Z1.Izvedi();
 
 //E10TryCatch.Izvedi();
-
 
 //E09ForeachPetlja.Izvedi();
 
 //E08DoWhilePetlja.Izvedi();
 
-//TablicaDZ.Izvedi();
+//E07WhilePetlja.Izvedi();
+
+//E06ForPetlja.Izvedi();
 
 //E05Nizovi.Izvedi();
-
-// E06ForPetlja.Izvedi();
-
-// E03Z3.Izvedi();
-
-//E03Z2.Izvedi();
 
 //E04UvjetnoGrananjeSwitch.Izvedi();
 

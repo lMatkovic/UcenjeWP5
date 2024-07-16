@@ -16,18 +16,7 @@ namespace UcenjeCS
 
         public static void Izvedi()
         {
-            Console.WriteLine("Unesi cijeli broj ");
-            int broj = int.Parse(Console.ReadLine());
-            if (broj % 2 == 0)
-            {
-
-                Console.WriteLine("broj " + broj + " je paran");
-            }
-            else
-            {
-                Console.WriteLine("broj " + broj + " je neparan");
-            }
-               
+            // DZ
         }
 
 

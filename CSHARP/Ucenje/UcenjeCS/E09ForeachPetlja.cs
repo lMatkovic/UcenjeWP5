@@ -20,7 +20,7 @@ namespace UcenjeCS
             }
 
 
-            foreach (char znak in grad)
+            foreach(char znak in grad) 
             {
                 Console.WriteLine(znak);
             }
@@ -35,7 +35,7 @@ namespace UcenjeCS
 
             float[] brojevi = { 2, 3, 4, 5.3f, 3, 3, 2, 2 };
             float suma = 0;
-            foreach (var e in brojevi)
+            foreach(var e in brojevi)
             {
                 Console.WriteLine(e);
                 suma += e;

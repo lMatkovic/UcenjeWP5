@@ -11,11 +11,8 @@ namespace UcenjeCS
 
         // Korisnik unos dva broja
         // Program ispisuje sve brojeve između njih
-        internal static void Izvedi()
-        {
-            // Korisnik unos dva broja
-            // Program ispisuje sve brojeve između njih
-            
-        }
-        }
+
+       
+
     }
+}

@@ -21,7 +21,7 @@ namespace UcenjeCS
                 try
                 {
                     broj = int.Parse(Console.ReadLine());
-                    if (broj <= 0 || broj > 1000)
+                    if(broj<=0 || broj > 1000)
                     {
                         Console.WriteLine("Broj mora biti između 1 i 1000");
                         continue;
@@ -39,7 +39,7 @@ namespace UcenjeCS
 
 
             // kako bi osigurali da čovjek unese ime
-
+           
 
             string ime;
             do
@@ -53,7 +53,7 @@ namespace UcenjeCS
                 }
                 break;
             } while (true);
-
+          
 
 
 

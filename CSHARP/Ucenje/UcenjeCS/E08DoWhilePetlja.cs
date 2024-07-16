@@ -19,7 +19,7 @@ namespace UcenjeCS
                 Console.WriteLine("Edunova");
             } while (false);
 
-            while (false) Console.WriteLine("Osijek");
+            while(false) Console.WriteLine("Osijek");
 
 
 

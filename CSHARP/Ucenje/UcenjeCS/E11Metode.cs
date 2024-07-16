@@ -29,16 +29,16 @@ namespace UcenjeCS
 
             // Console.WriteLine(Tip1()); ovo ne ide
 
-            for (int i = 0; i < 10; i++)
+            for(int i = 0; i < 10; i++)
             {
                 Console.WriteLine(SlucajnaRijec());
             }
 
+     
 
-
-            Console.WriteLine(SumaBrojeva(3, 23));
+            Console.WriteLine(SumaBrojeva(3,23));
             Console.WriteLine(SumaBrojeva(1, 100));
-            Console.WriteLine(SumaBrojeva(100, 1));
+            Console.WriteLine(SumaBrojeva(100,1));
             int[] brojevi = { 2, 2, 2, 2, 2, 2, 3 };
             Console.WriteLine(SumaBrojeva(brojevi));
 
@@ -65,7 +65,7 @@ namespace UcenjeCS
 
         private static void Tip2(int x) // opcionalni parametri, doda se zadana vrijednost = 2
         {
-            Console.WriteLine("Metoda je primila parametar tipa integer s vrijednošću {0}", x);
+            Console.WriteLine("Metoda je primila parametar tipa integer s vrijednošću {0}",x);
             for (int i = 0; i < x; i++)
             {
                 Console.WriteLine(i);
@@ -101,11 +101,11 @@ namespace UcenjeCS
         {
             char[] niz = new char[8];
             var r = new Random();
-            for (int i = 0; i < niz.Length; i++)
+            for(int i = 0; i < niz.Length; i++)
             {
-                niz[i] = (char)r.Next(65, 90);
+                niz[i]= (char)r.Next(65,90);
             }
-            return string.Join("", niz);
+            return string.Join("",niz);
         }
 
         // trenutno nama najzanimljiviji tip Tip4
@@ -123,7 +123,7 @@ namespace UcenjeCS
             int suma = 0;
             int min = b1 < b2 ? b1 : b2;
             int max = b1 > b2 ? b1 : b2;
-            for (int i = min; i <= max; i++)
+            for(int i = min; i <= max; i++)
             {
                 suma += i;
             }
@@ -133,16 +133,16 @@ namespace UcenjeCS
         private static int SumaBrojeva(int[] niz)
         {
             var suma = 0;
-            foreach (var b in niz)
+            foreach(var b in niz)
             {
-                suma += b;
+            suma += b; 
             }
             return suma;
         }
 
-        public static int UcitajCijeliBroj(string poruka = "Unesi broj", int min = 0, int max = 1000)
+        public static int UcitajCijeliBroj(string poruka="Unesi broj",int min=0,int max = 1000)
         {
-            int broj = 0;
+            int broj=0;
 
             while (true)
             {
@@ -150,9 +150,9 @@ namespace UcenjeCS
                 try
                 {
                     broj = int.Parse(Console.ReadLine());
-                    if (broj < min || broj > max)
+                    if(broj < min || broj > max)
                     {
-                        Console.WriteLine("Broj mora biti u rasponu {0} i {1}", min, max);
+                        Console.WriteLine("Broj mora biti u rasponu {0} i {1}",min,max);
                         continue;
                     }
                     return broj;

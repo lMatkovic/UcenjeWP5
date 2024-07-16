@@ -26,7 +26,7 @@ namespace UcenjeCS
 
             Console.WriteLine("****************************");
 
-            for (int i = 0; i < 10; i = i + 1) // i++ ++i i+=1
+            for (int i=0;i< 10;i=i+1) // i++ ++i i+=1
             {
                 Console.WriteLine("Osijek");
             }
@@ -35,16 +35,16 @@ namespace UcenjeCS
 
 
             // unutar petlje varijabla mijenja vrijednost
-            for (int i = 0; i < 10; i++)
+            for (int i=0; i< 10; i++)
             {
-                Console.WriteLine(i + 1);
+                Console.WriteLine(i+1);
             }
 
             Console.WriteLine("****************************");
 
             int suma = 0;
             // korištenje vrijednosti u petlji
-            for (int i = 1; i <= 100; i++)
+            for(int i = 1; i <= 100; i++)
             {
                 suma += i;
             }
@@ -60,7 +60,7 @@ namespace UcenjeCS
             Console.WriteLine("****************************");
 
             // dobar način
-            for (int i = 1; i <= 50; i++)
+            for(int i = 1; i <= 50; i++)
             {
                 if (i % 2 == 0)
                 {
@@ -75,7 +75,7 @@ namespace UcenjeCS
             int brojDo = 20;
 
 
-            for (int i = brojOd; i > brojDo; i--)
+            for(int i = brojOd; i>brojDo; i--)
             {
                 Console.WriteLine(i);
             }
@@ -84,9 +84,9 @@ namespace UcenjeCS
             int[] niz = { 2, 3, 2, 3, 4, 5, 4, 3 };
 
             // ispisati sve parne vrijednosti niza
-            for (int i = 0; i < niz.Length; i++)
+            for(int i = 0; i < niz.Length; i++)
             {
-                if (niz[i] % 2 == 0)
+                if(niz[i] % 2 == 0)
                 {
                     Console.WriteLine(niz[i]);
                 }
@@ -100,11 +100,11 @@ namespace UcenjeCS
             {7,8,9 }
             };
 
-            for (int i = 0; i < tablica.GetLength(0); i++)
+            for(int i = 0;i < tablica.GetLength(0); i++)
             {
-                for (int j = 0; j < tablica.GetLength(1); j++)
+                for(int j = 0; j < tablica.GetLength(1); j++)
                 {
-                    Console.Write(tablica[i, j] + " ");
+                    Console.Write(tablica[i,j] + " ");
                 }
                 Console.WriteLine();
             }
@@ -113,9 +113,9 @@ namespace UcenjeCS
             // tablica množenja - DZ lijepo formatirati
             for (int i = 0; i < 10; i++)
             {
-                for (int j = 0; j < 10; j++)
+                for(int j = 0;j < 10; j++)
                 {
-                    Console.Write((i + 1) * (j + 1) + " ");
+                    Console.Write((i+1)*(j+1) + " ");
                 }
                 Console.WriteLine();
             }
@@ -123,9 +123,9 @@ namespace UcenjeCS
             Console.WriteLine("****************************");
             // petlja se može preskočiti (nastaviti) i nasilno prekinuti
             int ukupno = 0;
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i<10 ; i++)
             {
-                if (i == 1 || i == 3)
+                if(i==1 || i == 3)
                 {
                     continue;
                 }
@@ -138,7 +138,7 @@ namespace UcenjeCS
 
 
                 Console.WriteLine(i);
-
+               
             }
             Console.WriteLine("****************************");
 
@@ -147,13 +147,13 @@ namespace UcenjeCS
             ukupno = 0;
             for (int i = 0; i < 10; i++)
             {
-                if (i != 1 && i != 3)
+                if (i != 1 && i != 3 )
                 {
                     if (ukupno++ < 5)
                     {
                         Console.WriteLine(i);
                     }
-
+                    
                 }
 
 
@@ -161,7 +161,7 @@ namespace UcenjeCS
 
             Console.WriteLine("****************************");
 
-            for (int i = 0; i < 10; i++)
+            for(int i = 0;i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
@@ -172,8 +172,8 @@ namespace UcenjeCS
                 // ovdje me bacio break iz unutarnje petlje
             }
 
-
-
+            
+            
         labela:
             Console.WriteLine("Hello");
 
@@ -189,17 +189,17 @@ namespace UcenjeCS
 
             int broj = 0;
             // ispravna beskonačna petlja
-            for (; ; )
+            for(; ; )
             {
                 Console.Write("Unesi broj između 10 i 20: ");
                 broj = int.Parse(Console.ReadLine());
-                if (broj >= 10 && broj <= 20)
+                if(broj>=10 && broj <= 20)
                 {
                     break;
                 }
                 Console.WriteLine("Neispravan unos");
             }
-
+            
             Console.WriteLine("Unijeli ste " + broj);
 
             Console.WriteLine("****************************");
@@ -211,13 +211,13 @@ namespace UcenjeCS
             char[] ime2 = { 'A', 'n', 'a', };
 
 
-            for (int i = 0; i < ime2.Length; i++)
+            for(int i = 0; i < ime2.Length; i++)
             {
                 Console.Write(ime2[i]);
             }
             Console.WriteLine();
 
-            for (int i = 0; i < ime1.Length; i++)
+            for (int i = 0;i<ime1.Length; i++)
             {
                 Console.Write(ime1[i]);
             }
