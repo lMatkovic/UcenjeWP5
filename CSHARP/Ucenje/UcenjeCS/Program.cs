@@ -3,7 +3,7 @@
 
 using UcenjeCS;
 
-E13Vjezbanje.Izvedi();
+// E13Vjezbanje.Izvedi();
 
 //E12Rekurzija.Izvedi();
 
