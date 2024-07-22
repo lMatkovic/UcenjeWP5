@@ -7,7 +7,7 @@ using UcenjeCS;
 
 //E12Rekurzija.Izvedi();
 
-//E11Z1.Izvedi();
+E11Z1.Izvedi();
 
 //E11Metode.Izvedi();
 
