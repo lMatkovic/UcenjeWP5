@@ -5,7 +5,7 @@ using UcenjeCS;
 
 // E13Vjezbanje.Izvedi();
 
-E12Rekurzija.Izvedi();
+//E12Rekurzija.Izvedi();
 
 //E11Z1.Izvedi();
 
@@ -37,7 +37,7 @@ E12Rekurzija.Izvedi();
 
 //E06ForPetlja.Izvedi();
 
-//E05Nizovi.Izvedi();
+E05Nizovi.Izvedi();
 
 //E04UvjetnoGrananjeSwitch.Izvedi();
 
