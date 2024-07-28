@@ -3,7 +3,7 @@
 
 using UcenjeCS;
 
-// E13Vjezbanje.Izvedi();
+//E13Vjezbanje.Izvedi();
 
 //E12Rekurzija.Izvedi();
 
@@ -35,9 +35,9 @@ using UcenjeCS;
 
 //E07WhilePetlja.Izvedi();
 
-//E06ForPetlja.Izvedi();
+E06ForPetlja.Izvedi();
 
-E05Nizovi.Izvedi();
+//E05Nizovi.Izvedi();
 
 //E04UvjetnoGrananjeSwitch.Izvedi();
 
