@@ -37,9 +37,9 @@ using UcenjeCS;
 
 //E06ForPetlja.Izvedi();
 
-E05Nizovi.Izvedi();
+//E05Nizovi.Izvedi();
 
-//E04UvjetnoGrananjeSwitch.Izvedi();
+E04UvjetnoGrananjeSwitch.Izvedi();
 
 //E03Z1.Izvedi();
 
