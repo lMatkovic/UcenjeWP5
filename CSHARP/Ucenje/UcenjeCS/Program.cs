@@ -33,13 +33,13 @@ using UcenjeCS;
 
 //E08DoWhilePetlja.Izvedi();
 
-//E07WhilePetlja.Izvedi();
+E07WhilePetlja.Izvedi();
 
 //E06ForPetlja.Izvedi();
 
 //E05Nizovi.Izvedi();
 
-E04UvjetnoGrananjeSwitch.Izvedi();
+//E04UvjetnoGrananjeSwitch.Izvedi();
 
 //E03Z1.Izvedi();
 
