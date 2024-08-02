@@ -25,7 +25,7 @@ using UcenjeCS;
 
 //E01Z2.Izvedi();
 
-//E01Z1.Izvedi();
+E01Z1.Izvedi();
 
 //E10TryCatch.Izvedi();
 
@@ -33,7 +33,7 @@ using UcenjeCS;
 
 //E08DoWhilePetlja.Izvedi();
 
-E07WhilePetlja.Izvedi();
+//E07WhilePetlja.Izvedi();
 
 //E06ForPetlja.Izvedi();
 
