@@ -25,9 +25,9 @@ using UcenjeCS;
 
 //E01Z2.Izvedi();
 
-E01Z1.Izvedi();
+//E01Z1.Izvedi();
 
-//E10TryCatch.Izvedi();
+E10TryCatch.Izvedi();
 
 //E09ForeachPetlja.Izvedi();
 
