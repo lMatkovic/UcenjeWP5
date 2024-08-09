@@ -15,7 +15,7 @@ using UcenjeCS;
 
 //E01Z4.Izvedi();
 
-//E06Z1.Izvedi();
+E06Z1.Izvedi();
 
 //E07Z2.Izvedi();
 
@@ -25,7 +25,7 @@ using UcenjeCS;
 
 //E01Z2.Izvedi();
 
-E01Z1.Izvedi();
+//E01Z1.Izvedi();
 
 //E10TryCatch.Izvedi();
 

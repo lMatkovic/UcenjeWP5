@@ -8,11 +8,35 @@ namespace UcenjeCS
 {
     internal class E06Z1
     {
+        public static void Izvedi()
+        {
+            
+            Console.Write("Unesite prvi broj: ");
+            int prviBroj = int.Parse(Console.ReadLine());
 
-        // Korisnik unos dva broja
-        // Program ispisuje sve brojeve između njih
+            
+            Console.Write("Unesite drugi broj: ");
+            int drugiBroj = int.Parse(Console.ReadLine());
 
-       
-
+            
+            if (prviBroj < drugiBroj)
+            {
+                for (int i = prviBroj + 1; i < drugiBroj; i++)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            else if (prviBroj > drugiBroj)
+            {
+                for (int i = drugiBroj + 1; i < prviBroj; i++)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Nema brojeva između jer su oba broja jednaka.");
+            }
+        }
     }
 }

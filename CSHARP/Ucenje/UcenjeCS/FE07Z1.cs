@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UcenjeCS
 {
-    internal class E07Z1
+    internal class E07Z11
     {
 
         // Program od korisnika unosi cijeli broj (osigurava se unos)
