@@ -15,11 +15,11 @@ using UcenjeCS;
 
 //E01Z4.Izvedi();
 
-E06Z1.Izvedi();
+//E06Z1.Izvedi();
 
 //E07Z2.Izvedi();
 
-//E03Z4.Izvedi();
+E03Z4.Izvedi();
 
 //E01Z3.Izvedi();
 
