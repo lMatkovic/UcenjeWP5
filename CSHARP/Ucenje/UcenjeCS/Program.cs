@@ -21,9 +21,9 @@ using UcenjeCS;
 
 //E03Z4.Izvedi();
 
-//E01Z3.Izvedi();
+E01Z3.Izvedi();
 
-E01Z2.Izvedi();
+//E01Z2.Izvedi();
 
 //E01Z1.Izvedi();
 
