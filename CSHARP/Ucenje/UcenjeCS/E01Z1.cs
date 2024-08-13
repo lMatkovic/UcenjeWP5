@@ -12,10 +12,32 @@ namespace UcenjeCS
         public static void Izvedi()
         {
 
-            // zadatak
-            // Korisnik unosi dva cijela broja i ispisuje njihov zbroj
 
-          
+            /*
+             Console.WriteLine("Upišite jedan broj: ");
+             int broj1 = int.Parse(Console.ReadLine());
+
+             Console.WriteLine("Upišite drugi broj: ");      
+             int broj2 = int.Parse(Console.ReadLine());
+
+
+             Console.WriteLine("Uneli ste broj: " + broj1 + " i " + broj2);
+
+            Jednostavnije napravljen zadatak
+
+             */
+
+
+            int broj1, broj2;
+
+            while (true) 
+            { 
+            
+            
+
+            
+            
+            }
 
 
 
