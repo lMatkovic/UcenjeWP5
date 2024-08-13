@@ -17,15 +17,29 @@ namespace UcenjeCS
 
         public static void Izvedi()
         {
-            
+            Console.Write("Unesite dvoznamenkasti broj: ");
+
+            if (int.TryParse(Console.ReadLine(), out int broj) && broj >= 10 && broj <= 99)
+            {
+
+                int prvaZnamenka = broj / 10;
+                Console.WriteLine("Prva znamenka je " + prvaZnamenka);
+            }
+            else
+            {
+                Console.WriteLine("Molim unesite validan dvoznamenkasti broj.");
+            }
+              
+
+
+
+
+
+
 
 
 
         }
     }
-
     
-
-    
-
 }

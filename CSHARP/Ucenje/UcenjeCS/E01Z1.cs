@@ -72,7 +72,7 @@ namespace UcenjeCS
 
             Console.WriteLine("Uneli ste brojeve: "+ broj1 + " i " + broj2);
 
-            // malo naprednije napravljen zadatak
+            // malo naprednije napravljen zadatak 
         }
 
     }
