@@ -5,7 +5,7 @@ using UcenjeCS;
 
 
 
-E04Z1.Izvedi();
+//E04Z1.Izvedi();
 
 //E13Vjezbanje.Izvedi();
 
@@ -17,7 +17,7 @@ E04Z1.Izvedi();
 
 //E11Metode.Tip1(); // ne vidmo metodu jer je privatna
 
-//E01Z4.Izvedi();
+E01Z4.Izvedi();
 
 //E06Z1.Izvedi();
 

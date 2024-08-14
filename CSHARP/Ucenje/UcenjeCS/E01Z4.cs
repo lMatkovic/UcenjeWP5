@@ -11,6 +11,11 @@ namespace UcenjeCS
 
         //Koristeći ASCII art ( https://www.asciiart.eu/ ) ispišite vama omiljenu grafiku.
 
+        public static void Izvedi()
+        {
+            Console.WriteLine("   / \\__\r\n  (    @\\___\r\n  /         O\r\n /   (_____/\r\n/_____/   U");
+        }
+
 
     }
 }
