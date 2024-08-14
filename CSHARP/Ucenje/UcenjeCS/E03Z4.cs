@@ -11,7 +11,7 @@ namespace UcenjeCS
 
         public static void Izvedi()
         {
-            Console.WriteLine("Unesite ime grada:");
+            Console.WriteLine("Unesite ime grada: ");
             string grad = Console.ReadLine();
 
             if (grad == "Osijek")

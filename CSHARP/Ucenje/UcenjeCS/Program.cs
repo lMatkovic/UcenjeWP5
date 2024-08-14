@@ -3,6 +3,10 @@
 
 using UcenjeCS;
 
+
+
+E04Z1.Izvedi();
+
 //E13Vjezbanje.Izvedi();
 
 //E12Rekurzija.Izvedi();
@@ -21,7 +25,7 @@ using UcenjeCS;
 
 //E03Z4.Izvedi();
 
-E01Z3.Izvedi();
+//E01Z3.Izvedi();
 
 //E01Z2.Izvedi();
 
