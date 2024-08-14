@@ -17,7 +17,7 @@ using UcenjeCS;
 
 //E11Metode.Tip1(); // ne vidmo metodu jer je privatna
 
-E01Z4.Izvedi();
+//E01Z4.Izvedi();
 
 //E06Z1.Izvedi();
 
@@ -45,7 +45,7 @@ E01Z4.Izvedi();
 
 //E04UvjetnoGrananjeSwitch.Izvedi();
 
-//E03Z1.Izvedi();
+E03Z1.Izvedi();
 
 //E03UvjetnoGrananjeIf.Izvedi();
 

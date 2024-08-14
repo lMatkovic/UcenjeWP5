@@ -17,8 +17,41 @@ namespace UcenjeCS
 
         public static void Izvedi()
         {
-            // DZ
-        }
+
+            Console.WriteLine("Unesite broj godina koje imate:");
+            string unos = Console.ReadLine();
+
+
+
+            if (int.TryParse(unos, out int godine))
+            {
+                if (godine < 0 || godine > 112)
+                {
+                    Console.WriteLine("uneseni broj godina nije validan.");
+                }
+
+
+                else if (godine >= 18)
+                {
+                    Console.WriteLine("Vi ste punoljetna osoba.");
+                }
+
+                else
+                {
+                    Console.WriteLine("Vi niste punoljetna osoba.");
+                }
+
+
+
+            }
+
+
+            else 
+            {
+                Console.WriteLine("Unesite ispravan broj godina");
+            }
+
+    }
 
 
 
