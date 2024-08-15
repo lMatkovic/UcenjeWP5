@@ -4,6 +4,7 @@
 using UcenjeCS;
 
 
+E03Z2.Izvedi();
 
 //E04Z1.Izvedi();
 
@@ -45,7 +46,7 @@ using UcenjeCS;
 
 //E04UvjetnoGrananjeSwitch.Izvedi();
 
-E03Z1.Izvedi();
+//E03Z1.Izvedi();
 
 //E03UvjetnoGrananjeIf.Izvedi();
 
