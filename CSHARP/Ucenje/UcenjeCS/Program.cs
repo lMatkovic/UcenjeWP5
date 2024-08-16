@@ -4,7 +4,9 @@
 using UcenjeCS;
 
 
-E0501.Izvedi();
+E03Z3.Izvedi();
+
+//E0501.Izvedi();
 
 //E03Z2.Izvedi();
 
