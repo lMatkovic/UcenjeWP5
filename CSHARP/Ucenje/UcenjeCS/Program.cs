@@ -3,7 +3,10 @@
 
 using UcenjeCS;
 
-E07Z2.Izvedi();
+
+E07Z1.Izvedi();
+
+//E07Z2.Izvedi();
 
 //E03Z3.Izvedi();
 
