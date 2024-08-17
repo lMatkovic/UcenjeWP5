@@ -10,7 +10,27 @@ namespace UcenjeCS
     {
         // Program unosi brojeve sve dok se ne unese broj -1
         // Program ispisuje zbroj svih unesenih brijeva
-       
+
+        public static void Izvedi()
+        {
+            int zbroj = 0;
+            int broj;
+
+
+            do
+            {
+                Console.WriteLine("Unesi broj (-1 za kraj)");
+                broj = int.Parse(Console.ReadLine());
+
+                if (broj != -1)
+                {
+                    zbroj += broj;
+                }
+            } while (broj != -1);
+
+            Console.WriteLine("Zbroj svih unesenih brojeva je: " + zbroj);
+        }
+
         
     }
 }
