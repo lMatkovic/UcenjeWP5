@@ -25,36 +25,59 @@ namespace UcenjeCS
 
         public static void Izvedi()
         {
-            int broj;
+            /* int broj;
 
-            while(true)
-            {
-                Console.WriteLine("Unesi cijeli broj: ");
-                if (int.TryParse(Console.ReadLine(), out broj))
-                {
-                    break;
-                }
-                else 
-                {
-                    Console.WriteLine("Neispravan unos. Pokušaj ponovno");
-                }
-            }
-            
+             while(true)
+             {
+                 Console.WriteLine("Unesi cijeli broj: ");
+                 if (int.TryParse(Console.ReadLine(), out broj))
+                 {
+                     break;
+                 }
+                 else 
+                 {
+                     Console.WriteLine("Neispravan unos. Pokušaj ponovno");
+                 }
+             }
+
+             int zbroj = 0;
+             int i = 1;
+
+             while (i <= broj) 
+             {
+                 if (i% 2 == 0) 
+                 {
+                     zbroj += 1;
+                 }
+                 i++;
+             }
+
+
+
+             Console.WriteLine("Zbroj svih parnih brojeva od 1 do " + broj + " je; " + zbroj);
+
+             */
+
+
+
+            int[] brojevi = new int[10];
             int zbroj = 0;
-            int i = 1;
 
-            while (i <= broj) 
+            for (int i = 0; i < 10; i++) 
             {
-                if (i% 2 == 0) 
-                {
-                    zbroj += 1;
-                }
-                i++;
+                Console.WriteLine("Unesi broj " + (i + 1) + ": ");
+                brojevi[i] = int.Parse(Console.ReadLine());
+                zbroj += brojevi[i];
             }
 
+            Console.WriteLine("Zbroj svih unesenih brojeva je: " + zbroj);
 
+            Console.WriteLine("uneseni borjevi su:");
+            foreach (int broj in brojevi)
+            {
+                Console.WriteLine(broj);
+            }
 
-            Console.WriteLine("Zbroj svih parnih brojeva od 1 do " + broj + " je; " + zbroj);
 
 
 
