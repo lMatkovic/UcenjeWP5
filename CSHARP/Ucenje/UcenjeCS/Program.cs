@@ -1,10 +1,13 @@
 ﻿
 
 
+using System.Runtime.CompilerServices;
 using UcenjeCS;
 
 
-E07Z1.Izvedi();
+E07Z11.Izvedi();
+
+//E07Z1.Izvedi();
 
 //E07Z2.Izvedi();
 
