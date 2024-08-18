@@ -28,6 +28,8 @@ namespace UcenjeCS
         public static void Izvedi()
         {
 
+            /*
+
             int broj;
             Console.Write("Unesite cijeli broj: ");
 
@@ -53,6 +55,34 @@ namespace UcenjeCS
             }
 
             Console.WriteLine($"Zbroj svih parnih brojeva od 1 do {broj} je: {zbroj}");
+
+            */
+
+
+            // drugi zadatak
+
+
+            int[] brojevi = new int[10];
+            int zbroj = 0;
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Unesite broj {i + 1}: ");
+
+                while (!int.TryParse(Console.ReadLine(), out brojevi[1]))
+                {
+                    Console.WriteLine("Pogrešan unos! Molim unesite cijeli broj.");
+                    
+                }
+                zbroj += brojevi[1];
+            }
+            
+
+
+
+
+
+
         }
 
     }
