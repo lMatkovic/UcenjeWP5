@@ -76,8 +76,14 @@ namespace UcenjeCS
                 }
                 zbroj += brojevi[1];
             }
-            
 
+            Console.WriteLine($"\nZbroj svih unesenih brojeva je: {zbroj}");
+            Console.WriteLine("Uneseni brojevi su");
+
+            foreach (int broj in brojevi)
+            {
+                Console.WriteLine(broj);
+            }
 
 
 
