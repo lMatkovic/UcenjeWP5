@@ -69,12 +69,12 @@ namespace UcenjeCS
             {
                 Console.WriteLine($"Unesite broj {i + 1}: ");
 
-                while (!int.TryParse(Console.ReadLine(), out brojevi[1]))
+                while (!int.TryParse(Console.ReadLine(), out brojevi[i]))
                 {
                     Console.WriteLine("Pogrešan unos! Molim unesite cijeli broj.");
                     
                 }
-                zbroj += brojevi[1];
+                zbroj += brojevi[i];
             }
 
             Console.WriteLine($"\nZbroj svih unesenih brojeva je: {zbroj}");
