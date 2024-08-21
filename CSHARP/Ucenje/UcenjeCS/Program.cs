@@ -5,7 +5,10 @@ using System.Runtime.CompilerServices;
 using UcenjeCS;
 
 
-E07Z11.Izvedi();
+
+UcenjeCS.E15KlasaObjekt.Program.Izvedi();
+
+//E07Z11.Izvedi();
 
 //E07Z1.Izvedi();
 
