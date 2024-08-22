@@ -8,6 +8,18 @@ namespace UcenjeCS.E16NasljedivanjePolimorfizam
 {
     internal class Predavac: Osoba
     {
-        public string? IBAN { get; set; }
+     
+
+        public Predavac() { }
+
+        public Predavac(int sifra, string ime, string prezime,string IBAN) 
+        {
+            base.Sifra = sifra;
+            base.Ime = ime;
+            base.Prezime = prezime;
+          
+
+
+        }
     }
 }
