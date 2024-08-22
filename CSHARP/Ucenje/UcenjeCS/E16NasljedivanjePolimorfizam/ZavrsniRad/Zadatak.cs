@@ -8,5 +8,11 @@ namespace UcenjeCS.E16NasljedivanjePolimorfizam.ZavrsniRad
 {
     internal class Zadatak
     {
+
+
+
+
+
+
     }
 }
