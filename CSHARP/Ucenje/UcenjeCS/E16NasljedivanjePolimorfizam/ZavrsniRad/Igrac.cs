@@ -14,7 +14,7 @@ namespace UcenjeCS.E16NasljedivanjePolimorfizam.ZavrsniRad
         public DateTime? DatumRođenja { get; set; }
         public string  Pozicija { get; set; }
         public int BrojDresa { get; set; }
-        public Klub Klub { get; set; }
+        public Klub? Klub { get; set; }
 
 
 

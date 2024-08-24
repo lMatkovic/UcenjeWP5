@@ -14,7 +14,7 @@ namespace UcenjeCS.E16NasljedivanjePolimorfizam.ZavrsniRad
         public string? Stadion { get; set; }
         public string? Predsjednik { get; set; }
         public string? Drzava { get; set; }
-        public string ? Liga { get; set; }
+        public string? Liga { get; set; }
 
 
 

@@ -12,7 +12,7 @@ namespace UcenjeCS.E16NasljedivanjePolimorfizam.ZavrsniRad
         public string? Prezime { get; set;}
         public string?  nacionalnost { get; set; }
         public string? iskustvo { get; set; }
-        public Klub Klub { get; set; }
+        public Klub? Klub { get; set; }
 
 
 
