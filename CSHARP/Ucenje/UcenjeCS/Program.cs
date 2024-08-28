@@ -6,9 +6,9 @@ using UcenjeCS;
 
 
 
-new UcenjeCS.E16NasljedivanjePolimorfizam.Program();
+//new UcenjeCS.E16NasljedivanjePolimorfizam.Program();
 
-//UcenjeCS.E15KlasaObjekt.Program.Izvedi();
+UcenjeCS.E15KlasaObjekt.Program.Izvedi();
 
 //E07Z11.Izvedi();
 
