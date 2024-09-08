@@ -62,26 +62,29 @@ namespace UcenjeCS.E16NasljedivanjePolimorfizam
 
             var predavac = new Predavac() { Sifra=1,Ime="Marko"};
 
+            predavac = new Predavac(2, "Ana", "Mak", "HR24242424");
+
+
             Console.WriteLine("{0} - {1}",polaznik,predavac);
 
-           // var e = new Entitet(); - apstraktna klasa se ne može instancirati
-          
-           
-            
+
+            // var e = new Entitet(); - apstraktna klasa se ne može instancirati
+
+
+
             var obradi = new Obrada[2];
 
             obradi[0] = new ObradaIzlaznihRacuna();
             obradi[1] = new ObradaUlaznihRacuna();
 
-            // polimorfizam 
-            foreach(var o in obradi)
+            // polimorfizam
+            foreach (var o in obradi)
             {
                 o.Procesuiraj();
             }
 
 
-
-
+            
 
         }
 

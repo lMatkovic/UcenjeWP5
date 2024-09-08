@@ -1,28 +1,15 @@
 ﻿
 
 
-using System.Runtime.CompilerServices;
 using UcenjeCS;
 
+new UcenjeCS.E18KonzolnaAplikacija.Izbornik();
 
+//new UcenjeCS.E17GenericiLambdaEkstenzije.Program();
 
-new UcenjeCS.E16NasljedivanjePolimorfizam.Program();
+//new UcenjeCS.E16NasljedivanjePolimorfizam.Program();
 
 //UcenjeCS.E15KlasaObjekt.Program.Izvedi();
-
-//E07Z11.Izvedi();
-
-//E07Z1.Izvedi();
-
-//E07Z2.Izvedi();
-
-//E03Z3.Izvedi();
-
-//E0501.Izvedi();
-
-//E03Z2.Izvedi();
-
-//E04Z1.Izvedi();
 
 //E13Vjezbanje.Izvedi();
 

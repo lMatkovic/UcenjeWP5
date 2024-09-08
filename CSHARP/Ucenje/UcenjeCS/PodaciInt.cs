@@ -19,10 +19,7 @@ namespace UcenjeCS
     {
         public static int[] niz = {
             34590,
-            83029,
-            73814, };
-        
-
+                318067
+        };
     }
-
 }

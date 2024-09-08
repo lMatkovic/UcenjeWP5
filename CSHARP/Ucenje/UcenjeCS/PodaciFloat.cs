@@ -17,12 +17,8 @@ namespace UcenjeCS
     public class PodaciFloat
     {
         public static float[] Niz = {
-            69.90F,
-            36.60F,
-            10.60F,
-            7.50F,
-            11.03F, };
-
+        69.90F,
+        9.87F
+        };
     }
-
 }

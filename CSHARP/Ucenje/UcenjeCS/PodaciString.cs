@@ -11,8 +11,6 @@ namespace UcenjeCS
     {
         public static String[] Niz = {
         "JENE",
-        "RADIC",
-        "DANICA", };
-
+               "LEO" };
     }
 }
