@@ -5,7 +5,7 @@ namespace UcenjeCS
 {
     internal class GeneratorLozinke
     {
-        // Funkcija za generiranje lozinke
+        
         internal static string GenerirajLozinku(int duzina, bool velikaSlova, bool malaSlova, bool brojevi, bool interpunkcija, bool pocinjeBrojem, bool pocinjeInterpunkcijom, bool zavrsavaBrojem, bool zavrsavaInterpunkcijom, bool bezPonavljanja)
         {
             string velikaSlovaSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -16,7 +16,7 @@ namespace UcenjeCS
             StringBuilder lozinka = new StringBuilder();
             Random random = new Random();
 
-            // Prikupljanje dostupnih znakova
+            
             if (velikaSlova) dostupniZnakovi.Append(velikaSlovaSet);
             if (malaSlova) dostupniZnakovi.Append(malaSlovaSet);
             if (brojevi) dostupniZnakovi.Append(brojeviSet);
