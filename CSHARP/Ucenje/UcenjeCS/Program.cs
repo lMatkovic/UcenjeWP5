@@ -4,7 +4,9 @@
 using UcenjeCS;
 
 
-LjubavniKalkulator.Izvedi();
+GeneratorLozinke.Izvedi();
+
+//LjubavniKalkulator.Izvedi();
 
 // new UcenjeCS.E18KonzolnaAplikacija.Izbornik();
 
