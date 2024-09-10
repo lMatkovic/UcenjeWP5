@@ -3,6 +3,9 @@
 
 using UcenjeCS;
 
+
+LjubavniKalkulator.Izvedi();
+
 // new UcenjeCS.E18KonzolnaAplikacija.Izbornik();
 
 //new UcenjeCS.E17GenericiLambdaEkstenzije.Program();
