@@ -21,9 +21,9 @@ create table igraci(
 sifra int not null primary key identity(1,1),
 ime varchar(30) not null,
 prezime varchar(30) not null,
-datum_rodenja datetime not null,
+datumrodjenja datetime not null,
 pozicija varchar(30),
-broj_dresa int,
+brojdresa int,
 klub int not null
 );
 
@@ -58,7 +58,7 @@ insert into klubovi (naziv, osnovan, stadion, predsjednik, drzava, liga) values
 
 select * from klubovi;
 
-insert into igraci (ime, prezime, datum_rodenja, pozicija, broj_dresa, klub) values
+insert into igraci (ime, prezime, datumrodjenja, pozicija, brojdresa, klub) values
 ('Robert', 'Lewandowski', '1988-08-21', 'Napadač', 9, 1),
 ('Luka', 'Modrić', '1985-09-09', 'Vezni', 10, 2),
 ('Harry', 'Maguire', '1993-03-05', 'Obrambeni', 5, 3),
