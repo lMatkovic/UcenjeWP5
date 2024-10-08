@@ -25,7 +25,7 @@ export default function NavBarEdunova(){
                         onClick={()=>navigate(RouteNames.SMJER_PREGLED)}
 
                         >Smjerovi</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">
+                        <NavDropdown.Item onClick={()=>navigate(RouteNames.POLAZNIK_PREGLED)}>
                         Polaznici
                         </NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Grupe</NavDropdown.Item>
